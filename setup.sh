@@ -51,3 +51,6 @@ brew install vim
 echo "Installing VS Code"
 brew install --cask visual-studio-code
 echo "code is automatically linked for use in the command line"
+
+echo "Installing NVM"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
