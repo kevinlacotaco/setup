@@ -57,3 +57,12 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 echo "Downloading istat menus"
 curl -Ls https://download.bjango.com/istatmenus/ > "$HOME/Downloads/istatmenus.zip"
+
+echo "Installing Slack"
+brew install --cask slack
+
+echo "Installing Spotify"
+brew install --cask spotify
+
+echo "Installing Zoom"
+brew install --cask zoom
