@@ -38,3 +38,6 @@ then
 else
     echo "'fzf' is already installed. Skipping"
 fi
+
+echo "Downloading terminal theme for Terminal.app"
+curl -s https://raw.githubusercontent.com/altercation/solarized/master/osx-terminal.app-colors-solarized/Solarized%20Dark%20ansi.terminal > "$HOME/Downloads/Solarized Dark ansi.terminal"
