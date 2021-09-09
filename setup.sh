@@ -54,3 +54,6 @@ echo "code is automatically linked for use in the command line"
 
 echo "Installing NVM"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+echo "Downloading istat menus"
+curl -Ls https://download.bjango.com/istatmenus/ > "$HOME/Downloads/istatmenus.zip"
