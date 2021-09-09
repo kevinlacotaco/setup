@@ -66,3 +66,6 @@ brew install --cask spotify
 
 echo "Installing Zoom"
 brew install --cask zoom
+
+echo "Installing Docker Desktop/Docker CE"
+brew install --cask docker
