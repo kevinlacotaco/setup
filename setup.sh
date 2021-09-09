@@ -23,18 +23,10 @@ else
     echo "'brew' is already installed. Skipping"
 fi
 
-if [ ! -d "$ZSH" ]; then
-    echo "'oh-my-zsh' could not be found. Installing..."
-    /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-else
-    echo "'oh-my-zsh' is already installed. Skipping"
-fi
-
 if ! command -v fzf &> /dev/null
 then
     echo "'fzf' could not be found. Installing..."
     brew install fzf
-    /usr/local/opt/fzf/install
 else
     echo "'fzf' is already installed. Skipping"
 fi
@@ -69,3 +61,9 @@ brew install --cask zoom
 
 echo "Installing Docker Desktop/Docker CE"
 brew install --cask docker
+
+echo "Installing dotbot"
+brew install dotbot
+
+echo "Installing antigen"
+brew install antigen
