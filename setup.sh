@@ -47,3 +47,7 @@ brew install git
 
 echo "Installing VIM"
 brew install vim
+
+echo "Installing VS Code"
+brew install --cask visual-studio-code
+echo "code is automatically linked for use in the command line"
