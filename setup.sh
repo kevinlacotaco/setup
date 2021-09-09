@@ -44,3 +44,6 @@ curl -s https://raw.githubusercontent.com/altercation/solarized/master/osx-termi
 
 echo "Updating git to latest"
 brew install git
+
+echo "Installing VIM"
+brew install vim
