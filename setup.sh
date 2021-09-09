@@ -22,3 +22,10 @@ then
 else
     echo "'brew' is already installed. Skipping"
 fi
+
+if [ ! -d "$ZSH" ]; then
+    echo "'oh-my-zsh' could not be found. Installing..."
+    /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+    echo "'oh-my-zsh' is already installed. Skipping"
+fi
